@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: whitesmoke;
+    padding-bottom: 150px;
+}
+
+.container {
+    width: 80%;
+    height: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+
+.resume-container {
+    width: 100%;
+    height: 100%;
+    background: #00AEFF;
+    position: absolute;
+    z-index: 99;
+}
+
+.resume-container img {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 30%;
+    display: block;
+}
+
+.stack-top {
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(20, 73, 112, 0.6);
+    color: #fff;
+    padding: 20px 25px;
+}
+
+.user-image-section {
+    width: 100%;
+    text-align: center;
+}
+
+.user-image-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.user-caption {
+    width: 100%;
+    text-align: center;
+}
+
+.user-caption h1 {
+    margin: 5px;
+    letter-spacing: 5px;
+}
+
+.user-caption p {
+    margin: 3px;
+    letter-spacing: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info-widget-section {
+    width: 100%;
+    padding: 50px 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-widget {
+    padding: 0 15px;
+}
+
+.info-widget .sub-heading {
+    letter-spacing: 5px;
+    margin: 5px;
+}
+
+.info-widget .list {
+    margin: 0;
+    padding: 0 15px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd
+}
